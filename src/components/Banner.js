@@ -1,11 +1,12 @@
-import logo from '../assets/mp-logo.png'
 import '../style/banner.css'
+import Logo from './Logo'
+import Tabs from '../components/Tabs'
 
 function Banner() {
     return (
-        <div className="mp-banner">
-            <img className='mp-banner-logo' src={logo} alt='Meal Planner logo' />
-            <span className='mp-banner-title'>Meal planner</span>
+        <div className='mp-banner'>
+            <Logo/>
+            <Tabs/>
         </div>
     );
 }
