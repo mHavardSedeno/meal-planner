@@ -22,15 +22,16 @@
     font-size: 55px;
     margin-left: 10px;
     text-transform: capitalize;
-    font-family: retrophile;
+    font-family: retrophile, serif;
     color: dimgrey;
 }
 
 .mp-banner-tabs{
     padding-left: 20%;
-    align: right;
+    /*align: right;*/
 }
 
 .mp-tabs{
     padding: 20px;
+    text-transform: capitalize;
 }
